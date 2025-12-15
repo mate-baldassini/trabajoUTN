@@ -69,3 +69,69 @@ aside header{
     justify-content: end;
     gap: 10px;
 }
+
+.acciones button{
+    padding: 7px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: var(--grey-800);
+    color: var(--grey-300);
+    transition: transform .2s;
+}
+
+.acciones button img{
+    width: 20px;
+}
+
+.acciones button:hover{
+    background-color: var(--grey-700);
+    transform: translateY(-4px);
+}
+
+.buscar{
+    background-color: var(--grey-800);
+    padding: 10px;
+}
+
+.buscar form input{
+    background-color: var(--grey-700);
+    width: 100%;
+    display: block;
+    border:none;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    color:white;
+}
+
+.buscar input:focus{
+    outline: 1px solid var(--grey-300);
+}
+
+.chats ul{
+list-style: none;
+display: flex;
+flex-direction: column;
+gap:10px;
+}
+
+.user-chat{
+    background-color: var(--grey-900);
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-chat img {
+    border-radius: 50%;
+    width: 50px;
+}
+
+.user-chat:hover {
+    background-color: var(--grey-700);
+    cursor: pointer;
+    border-left: 3px solid var(--green-400);
+}   
+
