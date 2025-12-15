@@ -163,5 +163,42 @@ gap:10px;
     font-size: small;
 }
 
+.mensajes-contenido{
+border-top: 1px solid #a4a4a4;
+border-bottom: 1px double #a4a4a4;
+    font-size: small;
+    height: 70vh;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.recibido{
+box-shadow: -2px 7px 6px -2px rgba(0,0,0,0.18);
+-webkit-box-shadow: -2px 7px 6px -2px rgba(0,0,0,0.18);
+-moz-box-shadow: -2px 7px 6px -2px rgba(0,0,0,0.18);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding:5px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: var(--grey-200)
+}
+
+.enviado{
+box-shadow: -2px 7px 6px -2px rgba(0,0,0,0.18);
+-webkit-box-shadow: -2px 7px 6px -2px rgba(0,0,0,0.18);
+-moz-box-shadow: -2px 7px 6px -2px rgba(0,0,0,0.18);
+    place-self: end;
+    width: 300px;
+    padding:5px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: var(--green-100)
+}
 
 
+.hora{
+place-self: end
+}
