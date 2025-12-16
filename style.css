@@ -202,3 +202,13 @@ box-shadow: -2px 7px 6px -2px rgba(0,0,0,0.18);
 .hora{
 place-self: end
 }
+
+
+.mensajes footer{
+    background-color: gold;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+}
+
+
