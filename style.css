@@ -141,7 +141,7 @@ border-radius: 50%;
 .user-chat:hover {
 background-color: var(--grey-700);
 cursor: pointer;
-border-left: 3px solid var(--green-400);
+border-left: 5px solid var(--green-400);
 }   
 
 .mensajes{
