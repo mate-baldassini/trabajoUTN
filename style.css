@@ -22,7 +22,10 @@
 
 
 body{
-background-color: var(--primary-color);
+background: rgba(192,156,248,0.59);
+background: linear-gradient(130deg,rgba(192,156,248,0.59) 0%, #07022a 100%);
+background: -webkit-linear-gradient(130deg,rgba(192,156,248,0.59) 0%, #07022a 100%);
+background: -moz-linear-gradient(130deg,rgba(192,156,248,0.59) 0%, #07022a 100%);
 padding: 60px;
 }
 
@@ -141,6 +144,12 @@ cursor: pointer;
 border-left: 3px solid var(--green-400);
 }   
 
+.mensajes{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 3fr;
+}
+
 .mensajes header{
 gap: 10px;
 padding: 20px;
@@ -149,7 +158,7 @@ justify-content: start;
 align-items: center;
 height: 50px;
 width: 100%;
-background-color: var(--grey-300);
+background-color: white;
 }
 
 .mensajes header img{ 
@@ -170,13 +179,11 @@ font-size: small;
 }
 
 .mensajes-contenido{
-border-top: 1px solid #a4a4a4;
-border-bottom: 1px double #a4a4a4;
-font-size: small;
+border-top: 1px solid var(--grey-200);
+font-size: medium;
 height: 70vh;
 padding: 20px;
 background-color: rgb(255, 255, 255);
-
 }
 
 .recibido{
@@ -207,29 +214,6 @@ background-color: var(--green-100)
 .hora{
 place-self: end
 }
-
-/* .mensajes footer{
-display: flex;
-padding: 15px;
-background-color: var(--grey-300);
-justify-content: space-between;
-}
-
-.mensajes footer img{
-    padding: 3px;
-}
-
-.botones-multimedia{
-    background-color: #2dca7a;
-    border: none;
-    color: var(--grey-300);
-    width: 45px;
-    height: 30px;
-    border-radius: 20px;
-    padding: 5px;
-    cursor: pointer;
-    transition: all .1s;
-} */
 
 footer {
   display: flex;
@@ -299,3 +283,4 @@ footer .send:hover {
   background-color: #138b80;
   transform: scale(0.98);
 }
+
